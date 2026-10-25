@@ -67,6 +67,7 @@ import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathFeatureAddedAfterStart
 import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathFeatureInServerXmlAppInIncludeTest;
 import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathIncludePresentAtStartupTest;
 import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathInlineAtStartupTest;
+import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathPlainApplicationAddedAfterStartupTest;
 import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathUpdateTest;
 import io.openliberty.mcp.internal.fat.tool.DynamicMcpPathUpdateUsingServerXMLIncludesTest;
 import io.openliberty.mcp.internal.fat.tool.EncoderTest;
@@ -162,7 +163,8 @@ import io.openliberty.mcp.internal.fat.tool.UnsupportedAnnotationWarningTest;
                 DynamicMcpPathIncludePresentAtStartupTest.class,
                 DynamicMcpPathAddedToServerXmlAfterStartupTest.class,
                 DynamicMcpPathInlineAtStartupTest.class,
-                DynamicMcpPathFeatureAddedAfterStartupTest.class
+                DynamicMcpPathFeatureAddedAfterStartupTest.class,
+                DynamicMcpPathPlainApplicationAddedAfterStartupTest.class
 })
 
 public class FATSuite extends TestContainerSuite {
